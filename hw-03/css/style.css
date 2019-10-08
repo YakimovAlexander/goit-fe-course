@@ -7,13 +7,44 @@
   body {
     font-family: "Playfair Display", serif;
   }
-  ul {
+  
+  /* EDIT#1 */
+
+  /* ul {
     width: max-content;
     margin: auto;
+  } */
+
+  /*EDIT#2*/
+  .container {
+    width: 900px;
+    margin: 0 auto;
   }
+  /* Edit#4 */
+  .menu {
+    font-size: 0;
+    
+  }
+/* Edit#4 */
+  .link {
+    font-size: 14px;
+    display: block;
+  }
+/* Edit#5 */
+  .folder {
+    margin-right: 0 auto;
+  }
+  /* Edit#5 */
+  .menu li:not(:last-child) {
+    margin-right: 0 auto;
+  }
+
+
   li {
     display: inline-block;
     margin: 40px;
+
+
     text-transform: uppercase;
   }
   a {
@@ -27,13 +58,23 @@
     width: 1000px;
     margin: auto;
   }
+
+  /* Edit#7 */
+  .MainBox .box:nth-child(odd) {
+margin-right: 0 auto;
+  }
+
   .upper {
     text-transform: uppercase;
   }
+
+
   .box {
-    width: 400px;
+    width: 420px;
   }
-  div {
+
+
+  article {
     display: inline-block;
     margin: 40px;
   }
@@ -46,14 +87,14 @@
   img {
     margin-bottom: 20px;
   }
-  .center {
+  /* .center {
     text-align: center;
-  }
+  } */
   button {
     padding: 21px 34px;
     font-size: 20px;
     background-color: white;
     font-family: "Playfair Display", serif;
     border: 1px solid black;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
