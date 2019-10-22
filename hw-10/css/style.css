@@ -257,7 +257,7 @@ header {
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   header {
     background-image: linear-gradient(to bottom, #e98282ce, #f1db8ac2),
-      url(../img/layer\15@2X-min.png);
+      url(../img/Layer\ 15@2X-min.png);
   }
 }
 @media (min-width: 768px) {
