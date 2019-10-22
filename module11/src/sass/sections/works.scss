@@ -1,0 +1,126 @@
+/* WORKS */
+.works {
+    padding: 100px 0;
+}
+
+.works__tabs-item {}
+
+.works__tabs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 422px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.works__tab {
+    font-family: "Roboto SlabR", sans-serif;
+    font-size: 16px;
+    color: #8e8e8e;
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+}
+
+.works__tab_active {
+    color: #c0301c;
+}
+
+.works__tabs-item:not(:last-of-type) {
+    margin-right: 28px;
+}
+
+.works__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.works__list-item {}
+
+.works__list-item:not(:nth-of-type(3n)) {
+    margin-right: 30px;
+}
+
+.works__list-item:not(:nth-last-of-type(-n + 3)) {
+    margin-bottom: 30px;
+}
+
+.works__list-item {
+    position: relative;
+}
+
+.works__overlay {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background-color: rgba(192, 48, 28, .7);
+    top: 0;
+    left: 0;
+    border: 10px solid rgba(256, 256, 256, .8);
+    background-clip: padding-box;
+    -webkit-transition: height 1s linear;
+    -o-transition: height 1s linear;
+    transition: height 1s linear;
+}
+
+.works__overlay * {
+    opacity: 0;
+    -webkit-transition: opacity .5s linear 1s;
+    -o-transition: opacity .5s linear 1s;
+    transition: opacity .5s linear 1s;
+}
+
+
+.works__list-item:hover .works__overlay {
+    height: 100%;
+}
+
+.works__list-item:hover .works__overlay * {
+    opacity: 1;
+}
+
+
+.works__overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.works__overlay-title {
+    font-family: "MontserratR", sans-serif;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.works__overlay-description {
+    font-family: "Roboto SlabR", sans-serif;
+    font-size: 12px;
+    margin-bottom: 28px;
+}
+
+.works__overlay-btn {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-family: "Roboto SlabR", sans-serif;
+    font-size: 14px;
+    color: #c0301c;
+    background-color: #fff;
+    border: none;
+    text-transform: uppercase;
+    background-image: url("../images/btn-arrow.png");
+    background-repeat: no-repeat;
+    background-position: right 22px center;
+}

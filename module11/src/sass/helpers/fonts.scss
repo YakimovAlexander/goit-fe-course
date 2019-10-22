@@ -1,0 +1,37 @@
+/* roboto-slab-regular - cyrillic_latin */
+@font-face {
+    font-family: 'Roboto SlabR';
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+        url('../fonts/robotoSlab-400.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/robotoSlab-400.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-slab-700 - cyrillic_latin */
+@font-face {
+    font-family: 'Roboto SlabB';
+    src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'),
+        url('../fonts/robotoSlab-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/robotoSlab-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-slab-regular - cyrillic_latin */
+@font-face {
+    font-family: 'MontserratR';
+    src: url('../fonts/montserratR.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserratR.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-slab-700 - cyrillic_latin */
+@font-face {
+    font-family: 'MontserratB';
+    src: url('../fonts/montserratB.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserratB.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}

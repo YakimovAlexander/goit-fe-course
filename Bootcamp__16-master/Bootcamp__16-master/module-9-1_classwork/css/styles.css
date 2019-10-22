@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    /* outline: 1px solid red; */
+}
+
+html {
+    box-sizing: border-box;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.header {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 0.875rem;
+    padding-bottom: 3.25rem;
+}
+
+.burger {
+    width: 1.75rem;
+    height: 1.1875rem;
+    background-image: url("../images/buger.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
+.header__title {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 2.1875rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.375rem;
+}
+
+.header__description {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    line-height: 1.375rem;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(22, 24, 32, .6);
+    box-shadow: 3px 5.196px 18px 0px rgba(1, 1, 1, 0.1);
+    margin-bottom: 3.75rem;
+}
+
+.header__description span {
+    font-weight: 700;
+    color: #e9ac38;
+}
+
+.header .container>.row:first-of-type {
+    margin-bottom: 17.5rem;
+}
+
+.header__btn {
+    display: block;
+    margin: 0 auto;
+    width: 0.8125rem;
+    height: 1.1875rem;
+    background-image: url("../images/scroll.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+}
+
+@media (min-width: 768px) {
+    .header {
+        background-image: url("../images/bg__tablet.jpg");
+        padding-top: 1.75rem;
+        padding-bottom: 2.125rem;
+    }
+
+    .header .container>.row:first-of-type {
+        margin-bottom: 20.625rem;
+    }
+
+    .header__title {
+        font-size: 2.8125rem;
+    }
+
+    .header__description {
+        font-size: 1.6875rem;
+        line-height: 2rem;
+        width: 27.25rem;
+        margin: 0 auto;
+        margin-bottom: 1.625rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .menu-list__item-link {
+        font-family: "Ubuntu", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        text-align: right;
+    }
+}
